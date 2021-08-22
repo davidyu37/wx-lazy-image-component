@@ -1,0 +1,4 @@
+
+<view style="width: 100%; height: 300px;">
+  <LazyImage src="https://i.thatcopy.pw/cat/uBFdvBN.jpg" mode="fixWidth" />
+</view>

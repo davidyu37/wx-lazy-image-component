@@ -1,0 +1,7 @@
+<!-- components/LazyImage.wxml -->
+<view class="lazy-image-container">
+    <image class="actual-image" src="{{src}}" bindload="imageLoaded" style="opacity: {{opacity}}" mode="{{mode}}" />
+    <view class="image-placeholder-postion image-placeholder-container" wx:if="{{!loaded}}">
+        <image class="image-placeholder" src="../../img/placeholder-image.jpeg" mode="{{mode}}" />
+    </view>
+</view>

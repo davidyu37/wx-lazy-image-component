@@ -1,0 +1,32 @@
+/* components/LazyImage.wxss */
+.lazy-image-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.actual-image {
+  transition: all 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.image-placeholder-postion {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-placeholder-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+
+.image-placeholder {
+  width: 40%;
+  height: 40%;
+}
